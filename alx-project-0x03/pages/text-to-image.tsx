@@ -1,11 +1,11 @@
 import Layout from "@/components/layouts/Layout";
-import TextGenerator from "@/components/ai/TextGenerator";
+import ImageGenerator from "@/components/ai/ImageGenerator";
 
 const GenerateTextAiPage: React.FC = () => {
   return (
     <Layout>
       <div className="min-h-screen pt-24 pb-12 flex items-center justify-center bg-gray-50">
-        <TextGenerator />
+        <ImageGenerator />
       </div>
     </Layout>
   );
